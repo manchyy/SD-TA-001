@@ -12,3 +12,4 @@
 /Users/macbook/Desktop/FIT-Assessments/SD-TA-001/FinancialReportApp/obj/Debug/net9.0/FinancialReportApp.pdb
 /Users/macbook/Desktop/FIT-Assessments/SD-TA-001/FinancialReportApp/obj/Debug/net9.0/FinancialReportApp.genruntimeconfig.cache
 /Users/macbook/Desktop/FIT-Assessments/SD-TA-001/FinancialReportApp/obj/Debug/net9.0/ref/FinancialReportApp.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/FinancialReportApp/obj/Debug/net9.0/FinancialReportApp.sourcelink.json
