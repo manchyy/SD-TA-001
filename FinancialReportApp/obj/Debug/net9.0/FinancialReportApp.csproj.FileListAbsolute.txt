@@ -1,0 +1,14 @@
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/FinancialReportApp/bin/Debug/net9.0/FinancialReportApp
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/FinancialReportApp/bin/Debug/net9.0/FinancialReportApp.deps.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/FinancialReportApp/bin/Debug/net9.0/FinancialReportApp.runtimeconfig.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/FinancialReportApp/bin/Debug/net9.0/FinancialReportApp.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/FinancialReportApp/bin/Debug/net9.0/FinancialReportApp.pdb
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/FinancialReportApp/obj/Debug/net9.0/FinancialReportApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/FinancialReportApp/obj/Debug/net9.0/FinancialReportApp.AssemblyInfoInputs.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/FinancialReportApp/obj/Debug/net9.0/FinancialReportApp.AssemblyInfo.cs
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/FinancialReportApp/obj/Debug/net9.0/FinancialReportApp.csproj.CoreCompileInputs.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/FinancialReportApp/obj/Debug/net9.0/FinancialReportApp.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/FinancialReportApp/obj/Debug/net9.0/refint/FinancialReportApp.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/FinancialReportApp/obj/Debug/net9.0/FinancialReportApp.pdb
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/FinancialReportApp/obj/Debug/net9.0/FinancialReportApp.genruntimeconfig.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/FinancialReportApp/obj/Debug/net9.0/ref/FinancialReportApp.dll
