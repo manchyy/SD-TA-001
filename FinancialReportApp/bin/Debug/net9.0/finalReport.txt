@@ -1,0 +1,6 @@
+Gross Income: €31000
+Tax Credits: €0
+Tax Payable: €6200
+Net Income: €24800
+Total Expenses: €0
+Final Balance: €24800

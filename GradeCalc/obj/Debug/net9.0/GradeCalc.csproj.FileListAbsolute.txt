@@ -1,0 +1,15 @@
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/GradeCalc/bin/Debug/net9.0/GradeCalc
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/GradeCalc/bin/Debug/net9.0/GradeCalc.deps.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/GradeCalc/bin/Debug/net9.0/GradeCalc.runtimeconfig.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/GradeCalc/bin/Debug/net9.0/GradeCalc.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/GradeCalc/bin/Debug/net9.0/GradeCalc.pdb
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/GradeCalc/obj/Debug/net9.0/GradeCalc.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/GradeCalc/obj/Debug/net9.0/GradeCalc.AssemblyInfoInputs.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/GradeCalc/obj/Debug/net9.0/GradeCalc.AssemblyInfo.cs
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/GradeCalc/obj/Debug/net9.0/GradeCalc.csproj.CoreCompileInputs.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/GradeCalc/obj/Debug/net9.0/GradeCalc.sourcelink.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/GradeCalc/obj/Debug/net9.0/GradeCalc.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/GradeCalc/obj/Debug/net9.0/refint/GradeCalc.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/GradeCalc/obj/Debug/net9.0/GradeCalc.pdb
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/GradeCalc/obj/Debug/net9.0/GradeCalc.genruntimeconfig.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/GradeCalc/obj/Debug/net9.0/ref/GradeCalc.dll

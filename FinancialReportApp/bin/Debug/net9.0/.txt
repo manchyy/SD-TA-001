@@ -1,0 +1,6 @@
+Gross Income: €0
+Tax Credits: €0
+Tax Payable: €0
+Net Income: €0
+Total Expenses: €0
+Final Balance: €0
