@@ -4,6 +4,7 @@ double salary = 0;
 double tax = 0;
 double taxCredits = 0;
 Dictionary<string, double> expensesList = new Dictionary<string, double>();
+
 Console.BackgroundColor = ConsoleColor.Black;
 Console.ForegroundColor = ConsoleColor.Red;
 Console.WriteLine("Welcome to the Personal Income Calculator.");
@@ -13,7 +14,7 @@ while (running)
     Console.BackgroundColor = ConsoleColor.Black;
     Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine("Please select one from the following: ");
-    Console.ForegroundColor = ConsoleColor.Blue;
+    Console.ForegroundColor = ConsoleColor.Cyan;
     Console.WriteLine("1) Input Salary");
     Console.WriteLine("2) Extra Expenses");
     Console.WriteLine("3) Display Final Report");
@@ -28,7 +29,7 @@ while (running)
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Please select the following: ");
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("1. Before Tax\n" +
                               "2. After Tax\n");
             Console.ResetColor();
@@ -38,14 +39,14 @@ while (running)
                 case 1: //before tax
                     Console.Clear();
                     Console.BackgroundColor = ConsoleColor.Black;
-                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.WriteLine("Please enter how much you're getting paid: ");
                     Console.ResetColor();
                     salary = Convert.ToDouble(Console.ReadLine());
                     salary = YearlyAdjust(salary);
                     
                     Console.BackgroundColor = ConsoleColor.Black;
-                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.WriteLine("Please enter your tax credits: ");
                     Console.ResetColor();
                     taxCredits = Convert.ToDouble(Console.ReadLine());
@@ -56,12 +57,12 @@ while (running)
                 case 2: //after tax
                     Console.Clear();
                     Console.BackgroundColor = ConsoleColor.Black;
-                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.WriteLine("Please enter your salary: ");
                     Console.ResetColor();
                     salary = Convert.ToDouble(Console.ReadLine());
                     Console.BackgroundColor = ConsoleColor.Black;
-                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.WriteLine("Please enter your Tax: ");
                     Console.ResetColor();
                     tax = Convert.ToDouble(Console.ReadLine());
@@ -71,9 +72,15 @@ while (running)
             break;
         case 2:
             Console.Clear();
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("Please specify the name of expense: ");
+            Console.ResetColor();
             string? expenseName = Console.ReadLine();
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("Please specify the cost of expense: ");
+            Console.ResetColor();
             double expenseCost = Convert.ToDouble(Console.ReadLine());
             if (!string.IsNullOrEmpty(expenseName))
             {
@@ -171,7 +178,7 @@ static void DisplayReport(double salary, double tax, double taxCredits, Dictiona
     Console.BackgroundColor = ConsoleColor.Black;
     Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine("=FINAL REPORT=");
-    Console.ForegroundColor = ConsoleColor.Blue;
+    Console.ForegroundColor = ConsoleColor.Cyan;
     Console.WriteLine("Gross Income: €"+salary);
     Console.WriteLine("Tax Credits: €"+taxCredits);
     Console.WriteLine("Tax Payable: €"+tax);
@@ -197,7 +204,7 @@ static double YearlyAdjust(double income)
     Console.BackgroundColor = ConsoleColor.Black;
     Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine("Is your salary paid: ");
-    Console.ForegroundColor = ConsoleColor.Blue;
+    Console.ForegroundColor = ConsoleColor.Cyan;
     Console.WriteLine("1. Weekly\n" +
                       "2. Monthly\n" +
                       "3. Yearly");
