@@ -1,0 +1,15 @@
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/ObjectExample/bin/Debug/net9.0/ObjectExample
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/ObjectExample/bin/Debug/net9.0/ObjectExample.deps.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/ObjectExample/bin/Debug/net9.0/ObjectExample.runtimeconfig.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/ObjectExample/bin/Debug/net9.0/ObjectExample.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/ObjectExample/bin/Debug/net9.0/ObjectExample.pdb
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/ObjectExample/obj/Debug/net9.0/ObjectExample.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/ObjectExample/obj/Debug/net9.0/ObjectExample.AssemblyInfoInputs.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/ObjectExample/obj/Debug/net9.0/ObjectExample.AssemblyInfo.cs
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/ObjectExample/obj/Debug/net9.0/ObjectExample.csproj.CoreCompileInputs.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/ObjectExample/obj/Debug/net9.0/ObjectExample.sourcelink.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/ObjectExample/obj/Debug/net9.0/ObjectExample.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/ObjectExample/obj/Debug/net9.0/refint/ObjectExample.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/ObjectExample/obj/Debug/net9.0/ObjectExample.pdb
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/ObjectExample/obj/Debug/net9.0/ObjectExample.genruntimeconfig.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/ObjectExample/obj/Debug/net9.0/ref/ObjectExample.dll

@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberGuesser", "NumberGues
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodExample", "MethodExample\MethodExample.csproj", "{1388B0DD-32D7-4CD0-8D23-58AABE9F3114}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayExample", "ArrayExample\ArrayExample.csproj", "{A8E57B3A-50AD-4E6D-AF57-2D734F454010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectExample", "ObjectExample\ObjectExample.csproj", "{F9DC4E59-890F-4FA5-822D-0660DB22401E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{1388B0DD-32D7-4CD0-8D23-58AABE9F3114}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1388B0DD-32D7-4CD0-8D23-58AABE9F3114}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1388B0DD-32D7-4CD0-8D23-58AABE9F3114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E57B3A-50AD-4E6D-AF57-2D734F454010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E57B3A-50AD-4E6D-AF57-2D734F454010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E57B3A-50AD-4E6D-AF57-2D734F454010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E57B3A-50AD-4E6D-AF57-2D734F454010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9DC4E59-890F-4FA5-822D-0660DB22401E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9DC4E59-890F-4FA5-822D-0660DB22401E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9DC4E59-890F-4FA5-822D-0660DB22401E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9DC4E59-890F-4FA5-822D-0660DB22401E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
