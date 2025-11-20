@@ -30,9 +30,15 @@
          //Practice adding to and viewing elements of the original array
          //Task5
          computers[0] = customComputer;
-         Console.WriteLine("Spec update: ");
-         computers[0].Print();
-
+         
+         //etc
+         Console.WriteLine();
+         for (int i = 0; i < computers.Length; i++)
+         {
+             Console.WriteLine("Computer #"+(i+1)+" Specifications:");
+             computers[i].Print();
+             Console.WriteLine("----------");
+         }
     }
 
     private static Desktop CreateComputer()

@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayExample", "ArrayExampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectExample", "ObjectExample\ObjectExample.csproj", "{F9DC4E59-890F-4FA5-822D-0660DB22401E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleGame", "BattleGame\BattleGame.csproj", "{5B405813-22C2-49D6-89D2-39D2D226F956}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{F9DC4E59-890F-4FA5-822D-0660DB22401E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9DC4E59-890F-4FA5-822D-0660DB22401E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9DC4E59-890F-4FA5-822D-0660DB22401E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B405813-22C2-49D6-89D2-39D2D226F956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B405813-22C2-49D6-89D2-39D2D226F956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B405813-22C2-49D6-89D2-39D2D226F956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B405813-22C2-49D6-89D2-39D2D226F956}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

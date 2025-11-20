@@ -1,0 +1,15 @@
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleGame/obj/Debug/net9.0/BattleGame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleGame/obj/Debug/net9.0/BattleGame.AssemblyInfoInputs.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleGame/obj/Debug/net9.0/BattleGame.AssemblyInfo.cs
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleGame/obj/Debug/net9.0/BattleGame.csproj.CoreCompileInputs.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleGame/obj/Debug/net9.0/BattleGame.sourcelink.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleGame/bin/Debug/net9.0/BattleGame
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleGame/bin/Debug/net9.0/BattleGame.deps.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleGame/bin/Debug/net9.0/BattleGame.runtimeconfig.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleGame/bin/Debug/net9.0/BattleGame.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleGame/bin/Debug/net9.0/BattleGame.pdb
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleGame/obj/Debug/net9.0/BattleGame.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleGame/obj/Debug/net9.0/refint/BattleGame.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleGame/obj/Debug/net9.0/BattleGame.pdb
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleGame/obj/Debug/net9.0/BattleGame.genruntimeconfig.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleGame/obj/Debug/net9.0/ref/BattleGame.dll

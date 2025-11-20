@@ -1,0 +1,15 @@
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/NumberGuesser/bin/Debug/net9.0/NumberGuesser
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/NumberGuesser/bin/Debug/net9.0/NumberGuesser.deps.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/NumberGuesser/bin/Debug/net9.0/NumberGuesser.runtimeconfig.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/NumberGuesser/bin/Debug/net9.0/NumberGuesser.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/NumberGuesser/bin/Debug/net9.0/NumberGuesser.pdb
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/NumberGuesser/obj/Debug/net9.0/NumberGuesser.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/NumberGuesser/obj/Debug/net9.0/NumberGuesser.AssemblyInfoInputs.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/NumberGuesser/obj/Debug/net9.0/NumberGuesser.AssemblyInfo.cs
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/NumberGuesser/obj/Debug/net9.0/NumberGuesser.csproj.CoreCompileInputs.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/NumberGuesser/obj/Debug/net9.0/NumberGuesser.sourcelink.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/NumberGuesser/obj/Debug/net9.0/NumberGuesser.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/NumberGuesser/obj/Debug/net9.0/refint/NumberGuesser.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/NumberGuesser/obj/Debug/net9.0/NumberGuesser.pdb
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/NumberGuesser/obj/Debug/net9.0/NumberGuesser.genruntimeconfig.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/NumberGuesser/obj/Debug/net9.0/ref/NumberGuesser.dll
