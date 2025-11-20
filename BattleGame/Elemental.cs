@@ -84,7 +84,6 @@ public class Elemental
                     Console.WriteLine();
                     Console.WriteLine($"{attacker.Nickname} 👊 {this.Nickname} for {attacker.AP}🛡️️.");
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"Critical Hit because {this.Type} is weak to {attacker.Type}.");
                     Console.ResetColor();
                     Console.WriteLine($"{this.Nickname} now has {this.HP}❤️ {this.DP}🛡️ left.");
                 }
