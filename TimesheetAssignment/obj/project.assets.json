@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/Users/macbook/.nuget/packages/": {}
+    "C:\\Users\\mant\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/TimesheetAssignment.csproj",
+      "projectUniqueName": "D:\\Dev\\SD-TA-001\\TimesheetAssignment\\TimesheetAssignment.csproj",
       "projectName": "TimesheetAssignment",
-      "projectPath": "/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/TimesheetAssignment.csproj",
-      "packagesPath": "/Users/macbook/.nuget/packages/",
-      "outputPath": "/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/obj/",
+      "projectPath": "D:\\Dev\\SD-TA-001\\TimesheetAssignment\\TimesheetAssignment.csproj",
+      "packagesPath": "C:\\Users\\mant\\.nuget\\packages\\",
+      "outputPath": "D:\\Dev\\SD-TA-001\\TimesheetAssignment\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/macbook/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\mant\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.307/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

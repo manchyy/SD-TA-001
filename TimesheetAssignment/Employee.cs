@@ -31,4 +31,30 @@ public class Employee
     {
         this.TotalHours = (this.MondayHours + this.TuesdayHours + this.WednesdayHours + this.ThursdayHours + this.FridayHours);
     }
+
+    public void PrintInfo()
+    {
+        Console.WriteLine($"Name: {this.Name}");
+        Console.WriteLine($"Department: {this.Department}");
+        Console.WriteLine($"Monday: {this.MondayHours}");
+        Console.WriteLine($"Tuesday: {this.TuesdayHours}");
+        Console.WriteLine($"Wednesday: {this.WednesdayHours}");
+        Console.WriteLine($"Thursday: {this.ThursdayHours}");
+        Console.WriteLine($"Friday: {this.FridayHours}");
+        Console.WriteLine($"Total: {this.TotalHours}");
+    }
+
+    public static Employee FromCsv(string input)
+    {
+        string[] vars = input.Split(',');
+        return new Employee(
+            vars[0],
+            vars[1],
+            Convert.ToDouble(vars[2]),
+            Convert.ToDouble(vars[3]),
+            Convert.ToDouble(vars[4]),
+            Convert.ToDouble(vars[5]),
+            Convert.ToDouble(vars[6])
+        );
+    }
 }
