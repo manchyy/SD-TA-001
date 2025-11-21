@@ -1,0 +1,17 @@
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/bin/Debug/net9.0/TimesheetAssignment
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/bin/Debug/net9.0/TimesheetAssignment.deps.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/bin/Debug/net9.0/TimesheetAssignment.runtimeconfig.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/bin/Debug/net9.0/TimesheetAssignment.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/bin/Debug/net9.0/TimesheetAssignment.pdb
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/obj/Debug/net9.0/TimesheetAssignment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/obj/Debug/net9.0/TimesheetAssignment.AssemblyInfoInputs.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/obj/Debug/net9.0/TimesheetAssignment.AssemblyInfo.cs
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/obj/Debug/net9.0/TimesheetAssignment.csproj.CoreCompileInputs.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/obj/Debug/net9.0/TimesheetAssignment.sourcelink.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/obj/Debug/net9.0/TimesheetAssignment.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/obj/Debug/net9.0/refint/TimesheetAssignment.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/obj/Debug/net9.0/TimesheetAssignment.pdb
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/obj/Debug/net9.0/TimesheetAssignment.genruntimeconfig.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/obj/Debug/net9.0/ref/TimesheetAssignment.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/bin/Debug/net9.0/Resources/.DS_Store
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/TimesheetAssignment/bin/Debug/net9.0/Resources/SD-TA-001-A_OrganisationWeeklyTimesheet.csv
