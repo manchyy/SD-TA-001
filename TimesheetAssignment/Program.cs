@@ -4,59 +4,65 @@ public class Program
     static void Main(string[] args)
     {
         string filePath = "Resources/SD-TA-001-A_OrganisationWeeklyTimesheet.csv";
+        var employees = LoadEmployeesFromCsv(filePath); //load csv into list
+        var employeeListArray = GroupEmployeesByDept(employees); //group employees by their department
+        SortAllDepts(employeeListArray); //sort by total hours (desc)
+        WriteToFile("DepartmentResults.txt", employeeListArray); //write to file
+    }
+    public static void SortAllDepts(List<Employee>[] employeeListArray)
+    {
+        for (int i = 0; i < employeeListArray.Length; i++)
+        {
+            employeeListArray[i] = SortListDesc(employeeListArray[i]);
+        }
+    }
+    public static List<Employee> LoadEmployeesFromCsv(string filePath)
+    {
         string[] data = File.ReadAllLines(filePath);
         List<Employee> employees = new List<Employee>();
-        for (int i = 1; i < data.Length; i++) 
+        for (int i = 1; i < data.Length; i++) //fill employees list from csv
         {
             employees.Add(Employee.FromCsv(data[i]));
         }
-        
-        //probably not the best solution, maybe should use a dictionary ;)
-        List<Employee> financeEmployees = new List<Employee>();
-        List<Employee> marketingEmployees = new List<Employee>();
-        List<Employee> hrEmployees = new List<Employee>();
-        List<Employee> engineeringEmployees = new List<Employee>();
-        List<Employee> managementEmployees = new List<Employee>();
-        //group employees by their department
+
+        return employees;
+    }
+    public static List<Employee>[] GroupEmployeesByDept(List<Employee> employees)
+    { 
+        //pass entire list of employees, return a sorted array of lists (departments)
+        List<Employee>[] employeeListArray = new List<Employee>[5] //hardcoded amount for 5 departments
+        {
+            new List<Employee>(), //0 - finance
+            new List<Employee>(), //1 - marketing
+            new List<Employee>(), //2 - hr
+            new List<Employee>(), //3 - engineering
+            new List<Employee>()  //4 - management
+        };
         for (int i = 0; i < employees.Count; i++)
         {
             if (employees[i].Department == "Finance")
             {
-                financeEmployees.Add(employees[i]);
+                employeeListArray[0].Add(employees[i]);
             }
             else if (employees[i].Department == "Marketing")
             {
-                marketingEmployees.Add(employees[i]);
+                employeeListArray[1].Add(employees[i]);
             }
             else if (employees[i].Department == "Human Resources")
             {
-                hrEmployees.Add(employees[i]);
+                employeeListArray[2].Add(employees[i]);
             }
             else if (employees[i].Department == "Engineering")
             {
-                engineeringEmployees.Add(employees[i]);
+                employeeListArray[3].Add(employees[i]);
             }
             else if (employees[i].Department == "Management")
             {
-                managementEmployees.Add(employees[i]);
+                employeeListArray[4].Add(employees[i]);
             }
         }
-        //sort employees by the total hours (desc)
-        financeEmployees = SortListDesc(financeEmployees);
-        marketingEmployees = SortListDesc(marketingEmployees);
-        hrEmployees = SortListDesc(hrEmployees);
-        engineeringEmployees = SortListDesc(engineeringEmployees);
-        managementEmployees = SortListDesc(managementEmployees);
-        
-        // Console.WriteLine(DeptSummary(financeEmployees));
-        // Console.WriteLine(DeptSummary(marketingEmployees));
-        // Console.WriteLine(DeptSummary(hrEmployees));
-        // Console.WriteLine(DeptSummary(engineeringEmployees));
-        // Console.WriteLine(DeptSummary(managementEmployees));
-        
-        WriteToFile("DepartmentResults.txt", financeEmployees, marketingEmployees, hrEmployees, engineeringEmployees, managementEmployees);
+        return employeeListArray;
     }
-
     public static string DeptSummary(List<Employee> employees)
     {
         string result = $"Department - {employees[0].Department}\n" +
@@ -66,20 +72,15 @@ public class Program
                         $"Top Employee: {employees[0].Name} with {employees[0].TotalHours}hrs worked\n";
         return result;
     }
-
-    public static void WriteToFile(string fileName, List<Employee> finance, List<Employee> marketing, List<Employee> hr,
-        List<Employee> engineering, List<Employee> management)
+    public static void WriteToFile(string fileName, List<Employee>[] inputArray)
     {
         string[] summaryCollection = new string [5];
-        summaryCollection[0] = DeptSummary(finance);
-        summaryCollection[1] = DeptSummary(marketing);
-        summaryCollection[2] = DeptSummary(hr);
-        summaryCollection[3] = DeptSummary(engineering);
-        summaryCollection[4] = DeptSummary(management);
-        
+        for (int i = 0; i < inputArray.Length; i++)
+        {
+            summaryCollection[i] = DeptSummary(inputArray[i]);
+        }
         File.WriteAllLines(fileName, summaryCollection);
     }
-
     public static double CalculateTotalHours(List<Employee> employees)
     {
         double totalHours = 0;
@@ -89,7 +90,6 @@ public class Program
         }
         return totalHours;
     }
-    
     public static double CalculateAverageHours(List<Employee> employees)
     {
         double totalHours = 0;
@@ -99,18 +99,8 @@ public class Program
         }
         return (totalHours /  employees.Count);
     }
-    
-    public static void PrintEmployees(string[] contents)
-    {
-        for (int i = 1; i < contents.Length; i++)
-        {
-            Console.WriteLine(contents[i]);
-        }
-    }
-
     public static List<Employee> SortListDesc(List<Employee> employees)
     {
-        return employees =  employees.OrderByDescending(employee => employee.TotalHours).ToList();
+        return employees = employees.OrderByDescending(employee => employee.TotalHours).ToList();
     }
-    
 }
