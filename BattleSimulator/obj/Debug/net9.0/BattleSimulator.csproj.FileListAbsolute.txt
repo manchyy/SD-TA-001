@@ -1,0 +1,15 @@
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleSimulator/bin/Debug/net9.0/BattleSimulator
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleSimulator/bin/Debug/net9.0/BattleSimulator.deps.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleSimulator/bin/Debug/net9.0/BattleSimulator.runtimeconfig.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleSimulator/bin/Debug/net9.0/BattleSimulator.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleSimulator/bin/Debug/net9.0/BattleSimulator.pdb
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleSimulator/obj/Debug/net9.0/BattleSimulator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleSimulator/obj/Debug/net9.0/BattleSimulator.AssemblyInfoInputs.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleSimulator/obj/Debug/net9.0/BattleSimulator.AssemblyInfo.cs
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleSimulator/obj/Debug/net9.0/BattleSimulator.csproj.CoreCompileInputs.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleSimulator/obj/Debug/net9.0/BattleSimulator.sourcelink.json
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleSimulator/obj/Debug/net9.0/BattleSimulator.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleSimulator/obj/Debug/net9.0/refint/BattleSimulator.dll
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleSimulator/obj/Debug/net9.0/BattleSimulator.pdb
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleSimulator/obj/Debug/net9.0/BattleSimulator.genruntimeconfig.cache
+/Users/macbook/Desktop/FIT-Assessments/SD-TA-001/BattleSimulator/obj/Debug/net9.0/ref/BattleSimulator.dll
