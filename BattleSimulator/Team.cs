@@ -32,10 +32,11 @@ public class Team
 
     public void PrintTeam()
     {
-        Console.WriteLine($"Team Size: {GetTeamSize()}");
-        foreach (var warrior in warriors)
-        {
-            Console.WriteLine($"Name: {warrior.Name}");
-        }
+        // Console.WriteLine($"Team Size: {GetTeamSize()}");
+        // foreach (var warrior in warriors)
+        // {
+        //     Console.WriteLine($"Name: {warrior.Name}");
+        // }
+        
     }
 }

@@ -1,3 +1,5 @@
+using System.Runtime.CompilerServices;
+
 namespace BattleSimulator;
 
 public enum WarriorClass //enums to determine warrior class
@@ -42,6 +44,17 @@ public class Warrior
                           $"{damage} 💥! " +
                           $"{target.Name} now has " +
                           $"❤️{target.Health}.");
+    }
+
+    public void PrintWarrior(Warrior target)
+    {
+        Console.WriteLine($"--CHAR INFO--\n" +
+                          $"{Name}\n" +
+                          $"❤️{Health}\n" +
+                          $"⚔️{Attack}\n" +
+                          $"🛡️{Defense}\n" +
+                          $"{ClassEmoji()} - {Type}\n" +
+                          $"-------------");
     }
 
     public double DamageMultiplier(Warrior target)

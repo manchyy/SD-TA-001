@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BattleSimulator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f0fde1ee0fa0cd61856ff2c6ab11ad31658d149")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3b00c4ecd3ba77fe6bbd2974ff1cf6a9d0e3a0b")]
 [assembly: System.Reflection.AssemblyProductAttribute("BattleSimulator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BattleSimulator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

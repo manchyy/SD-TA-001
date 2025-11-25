@@ -6,38 +6,50 @@ public class Program
     {
         Utils.PrintMenu();
         Team playerTeam  = new Team();
-        // FillPlayerTeam(playerTeam); 
-        DebugTeam(playerTeam); //debug mock team
-        Team enemyTeam = new Team();
-        FillEnemyTeam(enemyTeam, playerTeam);
-        
-        //debug team size and members print
-        // playerTeam.PrintTeam();
-        // enemyTeam.PrintTeam();
-        
-        
-        Battle.StartFight(playerTeam, enemyTeam);
+        FillPlayerTeam(playerTeam); 
+        // DebugTeam(playerTeam); //debug mock team
+
+        int rounds = 0;
+        while (playerTeam.GetTeamSize() > 0)
+        {
+            if (!Utils.StayInArena(playerTeam))
+            {
+                Console.WriteLine($"You lasted {rounds} rounds.");
+                return; //exit
+            }
+            
+            Team enemyTeam = new Team();
+            FillEnemyTeam(enemyTeam, playerTeam);
+            
+            Battle.StartFight(playerTeam, enemyTeam);
+            rounds++;
+            if (playerTeam.GetTeamSize() == 0)
+            {
+                Console.WriteLine($"You have fallen. You lasted {rounds} rounds.");
+            }
+        }
     }
 
     public static void FillEnemyTeam(Team enemyTeam, Team playerTeam)
     {
         //generate same amount of enemies based on player team
         Dictionary<int, string> WarriorType = new Dictionary<int, string>();
-        WarriorType.Add(0, "Heavy");
-        WarriorType.Add(1, "Rogue");
-        WarriorType.Add(2, "Ranged");
-        for (int i = 0; i < playerTeam.GetTeamSize(); i++)
+        WarriorType.Add(1, "Heavy");
+        WarriorType.Add(2, "Rogue");
+        WarriorType.Add(3, "Ranged");
+        Random r = new Random();
+        for (int i = 0; i < r.Next(1,5); i++)
         {
-            Random r = new Random();
-            if (r.Next(0,2) == 0) //heavy
+            int choice = r.Next(1, 4);
+            if (choice == 1) //heavy
             {
                 enemyTeam.AddMember(new HeavyWarrior(Utils.GenerateName()));
             }
-            else if (r.Next(2) == 1) //rogue
+            else if (choice == 2) //rogue
             {
                 enemyTeam.AddMember(new RogueWarrior(Utils.GenerateName()));
             }
-            else if (r.Next(2) == 2) //ranged
+            else if (choice == 3) //ranged
             {
                 enemyTeam.AddMember(new RangedWarrior(Utils.GenerateName()));
             }
